@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 80vh;
     background: url(./img/bg-profile-card.png);
     background-size: cover;
     display: flex;
@@ -17,10 +17,11 @@ body{
 }
 
 .profile-card{
-    width: 400px;
+    width: 350px;
     text-align: center;
     border-radius: 8px;
     overflow: hidden;
+    margin-top: 120px;
 }
 
 .card-header{
