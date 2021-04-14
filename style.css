@@ -4,29 +4,29 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 body{
-    height: 80vh;
-    background: url(./img/bg-profile-card.png);
+    height:100vh;
+    background: url(./img/bg-profile-card.png) no-repeat center;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
 }
 
 .profile-card{
-    width: 350px;
+    width: 400px;
     text-align: center;
     border-radius: 8px;
-    overflow: hidden;
     margin-top: 120px;
 }
 
 .card-header{
     background: #2c3a47;
-    padding: 60px 40px;
+    padding: 15px 40px;
+    margin-bottom: 120px;
 }
 
 .pic{
@@ -119,3 +119,4 @@ body{
     background: #e66767;
     color: #f2f2f2;
 }
+
